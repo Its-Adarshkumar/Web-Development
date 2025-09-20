@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-top:1px solid #ccc ;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 24px 30px;
+    border-right: 1px solid #ccc;
+}
+
+.headerAddress{
+    padding: 20px 30px;
+}
+
+.headerAddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.headerAddress p{
+    font-size: 14px;
+    color: #777;
+}
+
+.searchBox{
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    display:flex;
+    border: 1px solid #f4f4f4;
+}
+.searchBox button{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+}
+.searchBox input{
+    flex-grow: 1;
+    border: none;
+    
+    background-color: transparent;
+}
+
+.searchBox input:focus{
+    outline: none;
+}
+
+
+
+.headerBtn{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+.headerBtn button{
+    padding: 15px;
+    font-size: 16px;
+    background-color: transparent;
+    border:none;
+}
+
+.headerBtn button:last-child{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(12,131,31);
+    font-weight: bold;
+}
+
+.bannerSection{
+    margin: 0px auto;
+    max-width:1280px;
+}
+
+.bannerSection img{
+    width: 100%;
+}
+
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.orderBannerItem{
+    flex-basis: 27%;
+    margin: 1%;
+}
+
+.orderBannerItem img{
+    width: 100%;
+}
+
+.categorySection{
+    max-width:1280px ;
+    display: flex;
+    margin: auto;
+}
