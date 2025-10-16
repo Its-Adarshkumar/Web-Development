@@ -1,0 +1,40 @@
+/* h2{
+    display: inline;
+    background-color:pink;
+}
+
+span{
+    display: block;
+    background-color: yellowgreen;
+} */
+
+/* span{
+   
+    border:2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+
+div{
+    border:2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    border:2px solid black ;
+    margin: 5px;
+    background-color: green;
+    display: inline-block;
+    
+}
+
+#third{
+    display: none;
+}

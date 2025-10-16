@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    text-decoration: red line-through;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    text-align: start;
+    text-decoration: underline;
+}
+
+p{
+    /* text-align: right */
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 15px;
+    
+}
+
+h2{
+    font-weight: normal;   
+    text-decoration: double blue overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    text-decoration: none;;
+}
