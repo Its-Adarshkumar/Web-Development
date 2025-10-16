@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" checked />
+        <label for="age">i am 18+</label>
+
+        <br>
+        <div> <!--agar ek ko hi tick karna hai to sirf name sabka same hoga-->
+            <input type="radio" name="fruit" id="apple" value="apple" />
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="banana" value="banana"/>
+            <label for="banana">Banana</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">Mango</label>
+        </div>
+        <br>
+        <div>
+            choose your subjects:
+            <input type="checkbox" name="subjects" id="maths" value="maths">
+            <label for="maths">Maths</label>
+            <input type="checkbox" name="subjects" id="science" value="science">
+            <label for="science">science</label>
+            <input type="checkbox" name="subjects" id="english" value="english">
+            <label for="english">english</label>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>
